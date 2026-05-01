@@ -1,0 +1,30 @@
+//__________ SET-UP GUIDE __________//
+
+Steps to run : 
+	step 1 : Open terminal	step 2 : run the following codes in order,
+		( only once ) 
+		npm install
+		npm init -y
+		npm install electron --save-dev
+		
+	step 3 : 
+		open package.json and edit it ( required only once ) with the following text, 
+	
+		{
+   		"name": "gg-drive",
+  		"version": "1.0.0",
+  		"main": "main.js",
+  		"scripts": {
+   		"start": "electron ."
+  			}
+		}
+	step 4 : run this command in terminal ( required everytime )
+		npm start 
+
+//__________ Working __________ // 
+
+	Acts like Google drive but on local storage ( cloud stopped working )
+	it uses HTML CSS , JavaScript , MongoDB 
+	The uploaded data is converted to a base64 string and converted back to original format once downloaded 
+	stores the files in C:\Users\username\ggdrive
+
