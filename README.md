@@ -1,2 +1,2 @@
 # Storage_application
-Replica of Google Drive , a student prototype
+A Student Prototype of Storage Application 
